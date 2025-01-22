@@ -1,0 +1,69 @@
+body {
+    padding-top: 100px;
+  }
+.navbar-nav .nav-link {
+    color: white !important; 
+    font-size: 1.2rem; 
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffc107 !important; 
+  }
+  .navbar {
+    background-color: #343a40 !important; 
+  }
+
+  
+  .social-icons a {
+    color: white !important; 
+    font-size: 1.5rem; 
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+    text-decoration: none; 
+  }
+
+  .social-icons a:hover {
+    background-color: white; 
+    color: #343a40; 
+    transform: scale(1.3); 
+  }
+
+ .text-column h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .text-column p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  .footer {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* White text color */
+    padding: 30px; /* Padding for the footer */
+  }
+  .footer-links a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  .footer-links a:hover {
+    color:  #ffc107;
+  }
+  .footer-links .bi {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  .footer-text {
+    transition: all 0.3s ease; /* Efek transisi pada perubahan */
+}
+  .footer-text:hover {
+    color: #ffc107; /* Mengubah warna teks saat hover */
+    background-color: #343a40; /* Mengubah latar belakang saat hover */
+    padding: 10px 0; /* Memberikan padding saat hover untuk efek visual */
+}
